@@ -65,9 +65,9 @@ int main () {
     ios_base::sync_with_stdio(false);
 
     PhanSo ps1, ps2;
-    cout << "--- NHAP PHAN SO 1 ---\n";
+    cout << "NHAP PHAN SO 1 \n";
     nhap(ps1);
-    cout << "--- NHAP PHAN SO 2 ---\n";
+    cout << "NHAP PHAN SO 2 \n";
     nhap(ps2);
 
     rutgon(ps1);
@@ -76,3 +76,4 @@ int main () {
     xuatLonNhat(ps1, ps2);
     return 0;
 }
+
